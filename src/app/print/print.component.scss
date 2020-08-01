@@ -1,0 +1,16 @@
+.value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .value-icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #3F51B5;
+        display: inline-block;
+        margin-right: 10px;
+        border: 2px solid black;
+    }
+}

@@ -1,0 +1,6 @@
+<div *ngIf="values$ | async as values">
+    <div *ngFor="let value of values" class="value">
+        <div class="value-icon"></div>
+        <span class="value-text">{{ value }}</span>
+    </div>
+</div>
